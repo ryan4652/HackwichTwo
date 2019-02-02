@@ -85,13 +85,19 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Change Color"/>
                                 <connections>
-                                    <action selector="changeColorButtonPressed:" destination="vpG-y7-WTU" eventType="touchUpInside" id="3bQ-Cg-6yT"/>
+                                    <action selector="changeColorButtonPressed:" destination="vpG-y7-WTU" eventType="touchUpInside" id="4ui-e6-Yd7"/>
+                                    <action selector="changeLabelOutlet:" destination="vpG-y7-WTU" eventType="touchUpInside" id="Iun-2K-OSp"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="c09-c3-Vcw"/>
                     </view>
+                    <connections>
+                        <outlet property="changeLabelPressed" destination="qUB-Yu-oiI" id="IpW-uM-Eam"/>
+                        <outlet property="label" destination="CZr-sQ-AJ4" id="RIv-pT-JEG"/>
+                        <outlet property="labelOutlet" destination="CZr-sQ-AJ4" id="Oq6-nt-oCW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MOh-uP-N8t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

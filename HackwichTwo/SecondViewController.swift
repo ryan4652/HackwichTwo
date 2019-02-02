@@ -10,6 +10,10 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    
+    @IBOutlet weak var labelOutlet: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -18,8 +22,21 @@ class SecondViewController: UIViewController {
     
 
     @IBAction func changeColorButtonPressed(_ sender: Any) {
+        
         self.view.backgroundColor = UIColor.blue
+   
     }
+    
+    
+    @IBAction func changeLabelOutlet(_ sender: Any) {
+        
+        
+        self.labelOutlet.text = "I did it"
+    }
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 
