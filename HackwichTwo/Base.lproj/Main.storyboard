@@ -94,8 +94,6 @@
                         <viewLayoutGuide key="safeArea" id="c09-c3-Vcw"/>
                     </view>
                     <connections>
-                        <outlet property="changeLabelPressed" destination="qUB-Yu-oiI" id="IpW-uM-Eam"/>
-                        <outlet property="label" destination="CZr-sQ-AJ4" id="RIv-pT-JEG"/>
                         <outlet property="labelOutlet" destination="CZr-sQ-AJ4" id="Oq6-nt-oCW"/>
                     </connections>
                 </viewController>
